@@ -18,6 +18,6 @@ App({
 
       // 初始化Bmob
       Bmob = require('utils/bmob/bmob.js');
-      Bmob.initialize('c896a50464f9cb1186423679ba81ff40', '7cfc8053bc57fe9557bd34841d5a9e65');
+      Bmob.initialize('xxx', 'xxx');
   }
 })
