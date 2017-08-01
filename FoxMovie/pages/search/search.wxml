@@ -1,0 +1,16 @@
+<view class="content">
+  <view class="searchbar">
+    <input class="input" confirm-type="搜索" bindinput="bindKeyInput"/>
+    <button bindtap="search" hover-class="btnClick">查询</button>
+  </view>
+  <view class="search-tip">你要搜索的是：<text>{{searchKeyWord}}</text></view>
+
+  <view class="hr"></view>
+
+  <import src="../template/movietpl.wxml" />
+  <template is="movie-item" data="{{movies}}"></template>
+</view>
+
+<loading hidden="{{loadingHidden}}">
+	加载中...
+</loading>

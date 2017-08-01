@@ -1,0 +1,12 @@
+<view class="welcome">测试bmob后端云用法</view>
+<view class="bmob">
+  <view bindtap="insertData">点击添加一行数据</view>
+  <view bindtap="simpleQueryData">查询一行数据</view>
+  <view bindtap="updateData">修改一行数据</view>
+  <view bindtap="deleteData">删除一行数据</view>
+  <view bindtap="findData">查询所有数据</view>
+  <view bindtap="findDataByCond1">按条件查询数据1</view>
+  <view bindtap="findByPage">分页查询</view>
+  <view bindtap="findItem">查询指定列</view>
+  <view bindtap="orFind">或查询</view>
+</view>

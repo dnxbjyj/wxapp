@@ -1,0 +1,21 @@
+<!--pages/monthly-detail/monthly-detail.wxml-->
+<view class="content">
+    <view class="monthly-detail">
+        <view class="monthly-title">
+            <view class="monthly-date">
+                <text>{{monthly.start_datetime}}</text>
+            </view>
+            <image src="{{'../../assets/img/emoji/' + monthly.mood_type + '-active.png'}}"></image>
+        </view>
+
+        <view class="date-info">
+            <text>距离上次：{{monthly.day_from_last_month}}天</text>
+        </view>
+
+        <view class="date-info">
+            <text>预计下次时间：{{monthly.forecast_datetime}}</text>
+        </view>
+        
+        <textarea id="detail-note" class="note" placeholder="记录一下心情~" value="{{monthly.note}}" maxlength="500" bindinput="onDetailInputDone"/>
+    </view>
+</view>

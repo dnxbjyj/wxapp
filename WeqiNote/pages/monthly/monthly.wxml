@@ -1,0 +1,16 @@
+<!--pages/monthly/monthly.wxml-->
+<view class="content">
+  <view class="monthly-create" bindtap="createMonthly">
+    创建一条每月记录
+  </view>
+
+  <import src="../template/monthly-tpl.wxml"/>
+  <block wx:for="{{monthlys}}" wx:for-item="monthly">
+    <template is="monthlyItem" data="{{monthly}}"/>
+  </block>
+  
+</view>
+
+<loading hidden="{{loadingHidden}}">
+	加载中...
+</loading>

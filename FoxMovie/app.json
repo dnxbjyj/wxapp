@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/find/find",
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color":"#9a9a9a",
+    "selectedColor":"#1296db",
+    "backgroundColor":"#3a3a3a",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "影院热映",
+      "iconPath":"/assets/img/show2.png",
+      "selectedIconPath":"/assets/img/show1.png"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "text": "推荐电影", 
+      "iconPath":"/assets/img/recommend2.png",
+      "selectedIconPath":"/assets/img/recommend1.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索电影",
+      "iconPath":"/assets/img/search2.png",
+      "selectedIconPath":"/assets/img/search1.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath":"/assets/img/find2.png",
+      "selectedIconPath":"/assets/img/find1.png"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3a3a3a",
+    "navigationBarTitleText": "小咩狐电影",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  }
+}

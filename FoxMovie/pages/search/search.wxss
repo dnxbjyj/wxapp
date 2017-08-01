@@ -1,0 +1,48 @@
+@import "../index/index.wxss";
+
+.searchbar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.searchbar button{
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 10px;
+  border-left: 0px;
+  background-color: #1296db;
+  color: white;
+  text-shadow: black 0 1px 0;
+}
+
+.searchbar input{
+  width:60%;
+  border:1px solid #ccc;
+  color:black;
+  background-color: white;
+  box-shadow: inset 0 0 10px #ccc;
+}
+
+.search-tip{
+  color: white;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-tip text{
+  text-align: center;
+}
+
+.btnClick{
+  background-color: #1255aa;
+}

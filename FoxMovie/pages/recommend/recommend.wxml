@@ -1,0 +1,8 @@
+<view class="content">
+  <import src="../template/movietpl.wxml" />
+  <template is="movie-item" data="{{movies}}"></template>
+</view>
+
+<loading hidden="{{loadingHidden}}">
+	加载中...
+</loading>

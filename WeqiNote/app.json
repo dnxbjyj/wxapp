@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/monthly/monthly",
+    "pages/moment/moment",
+    "pages/singapore/singapore",
+    "pages/discover/discover",
+    "pages/monthly-detail/monthly-detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffa07a",
+    "navigationBarTitleText": "小琪记",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "selectedColor":"#ffa07a",
+    "backgroundColor":"#eee",
+    "list": [
+      {
+        "pagePath": "pages/monthly/monthly",
+        "text": "记每月",
+        "iconPath": "assets/img/icon/monthly_81_default.png",
+        "selectedIconPath": "assets/img/icon/monthly_81_selected.png"
+      },
+      {
+        "pagePath": "pages/moment/moment",
+        "text": "时刻",
+        "iconPath":"assets/img/icon/moment_81_default.png",
+        "selectedIconPath":"assets/img/icon/moment_81_selected.png"
+      },
+      {
+        "pagePath": "pages/singapore/singapore",
+        "text": "狮城",
+        "iconPath": "assets/img/icon/singapore_81_default.png",
+        "selectedIconPath": "assets/img/icon/singapore_81_selected.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "assets/img/icon/discover_81_default.png",
+        "selectedIconPath": "assets/img/icon/discover_81_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

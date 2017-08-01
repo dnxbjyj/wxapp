@@ -1,0 +1,20 @@
+<template name="monthlyItem">
+    <view class="monthly-item" id="{{monthly.id}}" bindtap="showDetail">
+        <view class="monthly-left">
+            <text>{{monthly.year_month}}</text>
+        </view>
+        <view class="monthly-detail">
+            <view class="monthly-title">
+                <view class="monthly-date">
+                    <text>{{monthly.start_datetime}}</text>
+                </view>
+                <image src="{{'../../assets/img/emoji/' + monthly.mood_type + '-active.png'}}"></image>
+            </view>
+            
+            <view class="monthly-note">
+                <text>{{monthly.note}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="hr"/>
+</template>

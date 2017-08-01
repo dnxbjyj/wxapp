@@ -1,0 +1,38 @@
+/* pages/monthly-detail/monthly-detail.wxss */
+@import "../monthly/monthly.wxss";
+
+.content{
+  min-height: 100%;
+  width: 700rpx;
+  padding: 15px 10px;
+}
+
+.monthly-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-info{
+  color:#888;
+  font-size: 16px;
+}
+
+.note{
+  border:1px solid rgba(100,100,100,0.8);
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  color: #333;
+  padding: 10px 5px;
+  margin-top: 10px;
+  height: 650rpx;
+}
+
+.save-btn{
+    margin-top: 20rpx;
+    width: 100%;
+}
+
+

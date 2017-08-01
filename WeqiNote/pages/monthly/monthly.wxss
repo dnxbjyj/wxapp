@@ -1,0 +1,78 @@
+/* pages/monthly/monthly.wxss */
+page{
+  font-family: 微软雅黑,宋体;
+  min-height: 100%;
+}
+
+.content{
+  min-height: 100%;
+  width: 100%;
+}
+
+.monthly-create{
+  width: 90%;
+  border:2px solid rgba(250,0,255,0.5);
+  border-radius: 2px;
+  margin: 15rpx;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.monthly-item{
+  padding: 15rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.monthly-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.monthly-detail{
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.monthly-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.monthly-date{
+  font-size: 18px;
+  color: black;
+}
+
+.monthly-title image{
+  width: 18px;
+  height: 18px;
+  margin-left: 10rpx;
+}
+
+.monthly-note{
+  font-size: 14px;
+  width: 500rpx;
+  color: #888;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hr{
+  height: 1px;
+  background-color: #ddd;
+  padding-left: 10rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
