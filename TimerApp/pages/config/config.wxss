@@ -20,10 +20,6 @@ page{
   background-color: gray;
 }
 
-.pull-right{
-  float: right;
-}
-
 .voice{
   margin-top: 10px;
   margin-bottom: 10px;
